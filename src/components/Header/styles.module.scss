@@ -17,6 +17,10 @@
     height: 5rem;
   }
 
+  > button {
+    margin-left: auto;
+  }
+
   a {
     display: inline-block;
     position: relative;
@@ -41,7 +45,7 @@
     }
 
     &.active::after {
-      content: 'a';
+      content: '';
       height: 3px;
       border-radius: 3px 3px 0 0;
       width: 100%;
