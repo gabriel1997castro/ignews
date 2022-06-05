@@ -1,0 +1,36 @@
+{
+  "id": "4904075b-975f-4102-84bc-ff0398217c16",
+  "uid": "odit-consequatur-deserunt",
+  "type": "post",
+  "data": {
+    "title": [
+      {
+        "type": "paragraph",
+        "text": "Id aliqua aliquip dolor. Aliquip ex id tempor deserunt voluptate nisi cupidatat et occaecat esse.",
+        "spans": []
+      }
+    ],
+    "content": [
+      {
+        "type": "heading1",
+        "text": "Visualize real-time applications",
+        "spans": []
+      },
+      {
+        "type": "image",
+        "dimensions": {
+          "width": 900,
+          "height": 500
+        },
+        "alt": "Placeholder image",
+        "copyright": null,
+        "url": "https://images.unsplash.com/photo-1551739440-5dd934d3a94a?w=900&h=500&fit=crop"
+      },
+      {
+        "type": "paragraph",
+        "text": "In sit culpa id. Sit amet nostrud fugiat non laboris nisi. Esse proident consequat officia sit laboris id quis in.",
+        "spans": []
+      }
+    ]
+  }
+}
