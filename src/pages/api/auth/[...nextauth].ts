@@ -12,9 +12,6 @@ export default NextAuth({
       authorization: { params: { scope: "read:user" } },
     }),
   ],
-  jwt: {
-    secret: process.env.SIGNING_KEY,
-  },
   callbacks: {
     async signIn({ user }) {
       const { email } = user;
