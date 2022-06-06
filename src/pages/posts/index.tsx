@@ -2,8 +2,6 @@ import styles from './styles.module.scss';
 import Head from 'next/head'
 import { GetStaticProps } from 'next';
 import { createClient } from '../../services/prismicio';
-import Prismic from '@prismicio/client'
-import { PrismicRichText } from '@prismicio/react';
 import { asText } from '@prismicio/helpers'
 
 type Post = {
@@ -53,9 +51,6 @@ export const getStaticProps: GetStaticProps = async ({ previewData }) => {
       })
     }
   })
-
-  // console.log(posts)
-  // console.log(JSON.stringify(response, null, 2))
 
   return {
     props: { posts }
