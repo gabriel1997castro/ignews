@@ -1,34 +1,37 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# IG News
 
-## Getting Started
+## :zap: About
 
-First, run the development server:
+IgNews is an application that looks like a blog where people can subscribe and pay monthly to access all posts. The persons who post the content can use [Prismic](https://prismic.io/) to edit the posts. The payments uses [Stripe](https://stripe.com/en-br).
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+This application was built during the Ignite from [Rocketseat](https://rocketseat.com.br/). During the chapter, a lot of important topics and important libraries in frontend development are used. The main ones are
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- [Next.js](https://nextjs.org/) - a [ReactJS](https://reactjs.org/) framework that allows server-side rendering (SSR), static site generation (SSG), route pre-fetching and still can be used normally in client side.
+- [SASS](https://sass-lang.com/) - a CSS language extension that is the base for many other libraries.
+- [JAM stack](https://jamstack.org/) - JavaScript, API, and Markup is a new architecture for web applications to make applications faster, more secure, and easier to scale.
+  One of the concepts is to build pages with static generation and give more power to the frontend through a server-side part that can be helpful to access directly database and other APIs without compromising the security of the site.
+- Concepts like the use of webhooks for example when is needed to receive data from events in external APIs like [Stripe](https://stripe.com/en-br), use of content management systems like [Prismic](https://prismic.io/). The application was built using specific APIs, but the main concepts are universal and can be reused.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## :rocket: Installation and Execution
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+<pre><code>
+  # Install
+  $ yarn # ou npm install
+  # Execute
+  $ yarn dev # ou npm run dev
+</code></pre>
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## :camera: Images
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<p align="center">
+  <img src="./doc/ignews.png" alt="Watch me"  width="900"/>
+</p>
+<p align="center">
+  <img src="./doc/ignews-posts.png" alt="Watch me"  width="900"/>
+</p>
+<p align="center">
+  <img src="./doc/ignews-post-preview.png" alt="Watch me"  width="900"/>
+</p>
+<p align="center">
+  <img src="./doc/ignews-post.png" alt="Watch me"  width="900"/>
+</p>
