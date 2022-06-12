@@ -44,7 +44,7 @@ const stripeWebhook = async (req: NextApiRequest, res: NextApiResponse) => {
     const type = event.type;
 
     if (relevantEvents.has(type)) {
-      console.log("Evento recebido", event);
+      console.log("Received event", event);
       try {
         switch (type) {
           case "customer.subscription.updated":

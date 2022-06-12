@@ -36,10 +36,10 @@ export const getServerSideProps: GetServerSideProps = async ({ req, params, prev
   const client = createClient({ previewData });
   const { slug } = params
 
-  if (!session.activeSubscription) {
+  if (!session?.activeSubscription) {
     return {
       redirect: {
-        destination: "/",
+        destination: `/posts/preview/${slug}`,
         permanent: false,
       }
     }
